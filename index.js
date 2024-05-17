@@ -14,6 +14,13 @@ $(document).keypress(function() {
     }
 });
 
+$(document).on("click",function(){
+    if(!started){
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        started = true;
+    }
+});
 $(".btn").on("click",function(e){
 
     var userChosenColour=this.id;   
