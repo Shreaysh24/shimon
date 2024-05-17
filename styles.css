@@ -19,8 +19,8 @@ body {
 .btn {
   margin: 15px;
   display: inline-block;
-  height: 150px;
-  width: 150px;
+  height: 13vh;
+  width: 13vh;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -30,7 +30,8 @@ body {
   cursor: pointer;
   font-size: 2vw;
   background-color:antiquewhite;
-  width: 20vw;
+  width: 165px;
+  padding: 10px;
   margin: auto;
   border-radius: 20px;
 }
@@ -59,3 +60,4 @@ body {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
