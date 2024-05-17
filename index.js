@@ -14,13 +14,14 @@ $(document).keypress(function() {
     }
 });
 
-$(document).on("click",function(){
+$(".start").on("click",function(){
     if(!started){
         $("#level-title").text("Level " + level);
         nextSequence();
         started = true;
     }
 });
+
 $(".btn").on("click",function(e){
 
     var userChosenColour=this.id;   
@@ -50,7 +51,7 @@ const checkAnswer= (currentLevel)=>{
           $("body").removeClass("game-over");
         }, 200);
 
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over, Press Button to Restart");
 
         startOver();
     }

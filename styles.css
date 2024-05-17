@@ -25,6 +25,15 @@ body {
   border-radius: 20%;
 }
 
+.start{
+  color: black;
+  cursor: pointer;
+  font-size: 2vw;
+  background-color:antiquewhite;
+  width: 20vw;
+  margin: auto;
+  border-radius: 20px;
+}
 .game-over {
   background-color: red;
   opacity: 0.8;
